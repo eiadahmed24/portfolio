@@ -1,0 +1,211 @@
+#desktop{display: block;}
+
+#mobile{display: none;}
+
+html{scroll-behavior: smooth;}
+
+body{ background-color: #161616;font-family: "Varela Round", sans-serif; margin: 0;color: #ffffff;}
+
+.clear-fix {clear: both;}
+
+main {width: 100%;}
+
+nav {background-color: #fd050574;padding: 0px 0; height: 100px; border-bottom-left-radius: 40%; border-bottom-right-radius: 40%;}
+
+nav .logo {color: black; font-size: 40px; margin-left: 120px; font-weight:500; text-decoration: none;}
+
+nav .logo span {color:  white;
+font-weight: Bold;
+font-size: 60px;}
+nav .logo:hover {color: white;}
+
+nav ul {float: right;margin: 20px 20px 10px 10px; padding: 0; list-style: none; margin-right: 120px;}
+
+nav ul li {float: left;margin: 15px 15px 35px;}
+
+nav ul li a {color: white; text-decoration: none; }
+nav ul li a:hover{color: #000000; font-size: 20px;}
+
+#head h2 {color:#fd050574 ; font-size: 60px; text-align: center; font-weight: 900;}
+
+#head h3 {color:white ; font-size: 40px; text-align: center; font-weight: 0;}
+
+#counter {text-align: center; font-size: 30px; box-shadow: 2px 2px 5px 2px #fd050574; border-radius: 10px; width: 450px; padding: 0 5 50 5 ; display: flex; justify-content: center; justify-self: center; margin-bottom: 50px; height: 100px;}
+#counter h3{text-align: center;}
+#counter span{color:#fd050574; font-size: 60px; font-weight: 900;}
+
+#cert1 {box-shadow: 5px 5px 10px 5px #fd050574; Border-radius: 10px;  padding-bottom: 0px; width: 97%; float: left; margin: 30px 30px 30px 1.5%;height:auto ;}
+#cert1 h1{color:#fd050574 ; font-size: 35px; padding-left: 10px;}
+#cert1 .image{ height: 60%; border-radius: 10px 10px 10px 10px; float: right; width: 50%; }
+#cert1 .text {float: left; ; width: 45%; padding: 10 5 10 20 ;}
+#cert1 .text  p{font-size: 18px;}
+#cert1 .text h2 {color: gold; font-size: 25px;}
+
+#cert2 {box-shadow: 5px 5px 10px 5px #fd050574; Border-radius: 10px;  padding-bottom: 0px; width: 97%; float: left; margin: 30px 30px 30px 1.5%;height:auto ;}
+#cert2 h1{color:#fd050574 ; font-size: 35px; padding-left: 10px;}
+#cert2 .image{ height: 60%; border-radius: 10px 10px 10px 10px; float: right; width: 50%; }
+#cert2 .text {float: left; ; width: 45%; padding: 10 5 10 20 ;}
+#cert2 .text  p{font-size: 18px;}
+#cert2 .text h2 {color: gold; font-size: 25px;}
+
+#cert3 {box-shadow: 5px 5px 10px 5px #fd050574; Border-radius: 10px;  padding-bottom: 0px; width: 97%; float: left; margin: 30px 30px 30px 1.5%;height:auto ;}
+#cert3 h1{color:#fd050574 ; font-size: 35px; padding-left: 10px;}
+#cert3 .image{ height: 60%; border-radius: 10px 10px 10px 10px; float: right; width: 50%; }
+#cert3 .text {float: left; ; width: 45%; padding: 10 5 10 20 ;}
+#cert3 .text  p{font-size: 18px;}
+#cert3 .text h2 {color: gold; font-size: 25px;}
+
+#cert4 {box-shadow: 5px 5px 10px 5px #fd050574; Border-radius: 10px;  padding-bottom: 0px; width: 97%; float: left; margin: 30px 30px 30px 1.5%;height:auto ;}
+#cert4 h1{color:#fd050574 ; font-size: 35px; padding-left: 10px;}
+#cert4 .image{ height: 60%; border-radius: 10px 10px 10px 10px; float: right; width: 50%; }
+#cert4 .text {float: left; ; width: 45%; padding: 10 5 10 20 ;}
+#cert4 .text  p{font-size: 18px;}
+#cert4 .text h2 {color: gold; font-size: 25px;}
+
+#cert5 {box-shadow: 5px 5px 10px 5px #fd050574; Border-radius: 10px;  padding-bottom: 0px; width: 97%; float: left; margin: 30px 30px 30px 1.5%;height:auto ;}
+#cert5 h1{color:#fd050574 ; font-size: 35px; padding-left: 10px;}
+#cert5 .image{ height: 60%; border-radius: 10px 10px 10px 10px; float: right; width: 50%; }
+#cert5 .text {float: left; ; width: 45%; padding: 10 5 10 20 ;}
+#cert5 .text  p{font-size: 18px;}
+#cert5 .text h2 {color: gold; font-size: 25px;}
+
+#footer{background-color: #fd050574;  padding:20px 30px; height: auto;margin: auto; border-top-left-radius: 0%; border-top-right-radius: 0%; align-items: flex-start; display: flex; justify-content: space-around;  }
+
+footer ul{list-style: none;}
+
+#footer ul {display: inline-block; padding: 30px 0 0 0 ; margin: 0 20; }
+
+#footer ul li a{color: white; text-decoration: none;display: block; text-align: center; font-weight: 100;}
+
+.list-title{color: black; text-decoration:none ; font-weight: 900; font-size: 30px;}
+
+.list-title:hover{color: white; font-size: 35px;}
+
+#footer ul li a:hover{color: #000000; font-size:20px ;}
+
+
+@media (max-width: 1200px) {
+
+    #desktop {display: none;}
+
+    #mobile {display: block;}
+
+    * {box-sizing: border-box;}
+
+body{ background-color: #161616;font-family: "Varela Round", sans-serif; margin: 0;color: #ffffff;}
+
+.clear-fix {clear: both;}
+
+main {width: 100%;}
+
+ nav {background-color: #fd050574; height: auto; border-bottom-left-radius: 40%; border-bottom-right-radius: 40%; width: auto; padding: 20px 10px; text-align: center;}
+
+ nav .logo {color: black; font-size: 30px; margin: 0px; font-weight:500; text-decoration: none; display: block;}
+
+ nav .logo span {color:  white;
+ font-weight: Bold;
+ font-size: 40px;}
+ nav .logo:hover {color: white;}
+
+ nav ul {margin: 15px 0px; padding: 0; list-style: none; text-align: center; float: none; display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;}
+
+ nav ul li {margin:0 5; float: none; display: inline-block;}
+
+ nav ul li a {color: white; text-decoration: none; display: block; }
+
+#head h2 {color:#fd050574 ; font-size: 40px; text-align: center; font-weight: 900; margin-top: 50px; }
+
+#head h3 {color:white ; font-size: 20px; text-align: center; font-weight: 0;}
+
+#counter {text-align: center; font-size: 30px; box-shadow: 2px 2px 5px 2px #fd050574; border-radius: 10px; width: 300px; padding: 0 5 0 5 ;  justify-content: center; justify-self: center; height: 100px; margin: auto auto 50px;}
+#counter h3{text-align: center; font-size: 25px;}
+#counter span{color:#fd050574; font-size: 35px; font-weight: 900;}
+
+#cert1 {box-shadow: 5px 5px 10px 5px #fd050574; Border-radius: 10px;  padding-bottom: 0px; width: auto; ;  height:auto ; margin: 20 20 20 20;}
+#cert1 h1{color:#fd050574 ; font-size: 30px; padding-left: 0px; padding-right:0px;}
+#cert1 .image{ height: auto; border-radius: 10px 10px 10px 10px; text-align: center; width: 100%; }
+#cert1 .text {text-align: left ; width:100%; padding: 0 10 0 10 ;}
+#cert1 .text p{font-size: 15px;}
+#cert1 h3{font-size: 15px; color: white;}
+#cert1 .text h2{font-size: 20px; color: gold;}
+
+
+#cert2 {box-shadow: 5px 5px 10px 5px #fd050574; Border-radius: 10px;  padding-bottom: 0px; width: auto; ;  height:auto ; margin: 20 20 20 20;}
+#cert2 h1{color:#fd050574 ; font-size: 30px; padding-left: 0px; padding-right:0px;}
+#cert2 .image{ height: auto; border-radius: 10px 10px 10px 10px; text-align: center; width: 100%; }
+#cert2 .text {text-align: left ; width:100%; padding: 0 10 0 10 ;}
+#cert2 .text  p{font-size: 15px;}
+#cert2 h3{font-size: 15px; color: white;}
+#cert2 .text h2{font-size: 20px; color: gold;}
+
+#cert3 {box-shadow: 5px 5px 10px 5px #fd050574; Border-radius: 10px;  padding-bottom: 0px; width: auto; ;  height:auto ; margin: 20 20 20 20;}
+#cert3 h1{color:#fd050574 ; font-size: 30px; padding-left: 0px; padding-right:0px;}
+#cert3 .image{ height: auto; border-radius: 10px 10px 10px 10px; text-align: center; width: 100%; }
+#cert3 .text {text-align: left ; width:100%; padding: 0 10 0 10 ;}
+#cert3 .text  p{font-size: 15px;}
+#cert3 h3{font-size: 15px;color: white; }
+#cert3 .text h2{font-size: 20px; color: gold;}
+
+#cert4 {box-shadow: 5px 5px 10px 5px #fd050574; Border-radius: 10px;  padding-bottom: 0px; width: auto; ;  height:auto ; margin: 20 20 20 20;}
+#cert4 h1{color:#fd050574 ; font-size: 30px; padding-left: 0px; padding-right:0px;}
+#cert4 .image{ height: auto; border-radius: 10px 10px 10px 10px; text-align: center; width: 100%; }
+#cert4 .text {text-align: left ; width:100%; padding: 0 10 0 10 ;}
+#cert4 .text  p{font-size: 15px;}
+#cert4 h3{font-size: 15px;color: white; }
+#cert4 .text h2{font-size: 20px; color: gold;}
+
+#cert5 {box-shadow: 5px 5px 10px 5px #fd050574; Border-radius: 10px;  padding-bottom: 0px; width: auto; ;  height:auto ; margin: 20 20 20 20;}
+#cert5 h1{color:#fd050574 ; font-size: 30px; padding-left: 0px; padding-right:0px;}
+#cert5 .image{ height: auto; border-radius: 10px 10px 10px 10px; text-align: center; width: 100%; }
+#cert5 .text {text-align: left ; width:100%; padding: 0 10 0 10 ;}
+#cert5 .text  p{font-size: 15px;}
+#cert5 h3{font-size: 15px;color: white; }
+#cert5 .text h2{font-size: 20px; color: gold;}
+
+#footer {
+    background-color: #fd050536;
+    padding: 10px 0px;
+    width: 100%;
+    margin: 0;
+    height: auto;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+#footer > div {
+    width: 100%;
+    min-width: 0;
+    text-align: center;
+}
+
+#footer ul {
+    list-style: none;
+    display: block;
+    padding: 10px 0;
+    margin: 0;
+    width: 100%;
+}
+
+#footer .list-title {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 12px;
+    overflow-wrap: anywhere;
+}
+
+#footer ul li a {
+    color: rgba(255, 255, 255, 0.273);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: 900;
+    font-size: 8px;
+    margin-top: 12px;
+    overflow-wrap: anywhere;
+}
+}
