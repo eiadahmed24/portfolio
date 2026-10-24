@@ -1,6 +1,6 @@
 
 async function copyPortfolioLink() {
-    alert("The button is working!");
+    alert("Link coppied!");
     const portfolioUrl = document.getElementById("portfolio-url");
     const copyMessage = document.getElementById("copy-message");
 
